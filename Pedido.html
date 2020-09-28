@@ -30,7 +30,17 @@
 	<tr>
 		<td>Correo:</td>
 		<td><input type="mail" name="_replyto" size="50"></td>
-	</tr>	
+	</tr>
+	<tr>
+    <td>Metodo De Pago:</td>
+    <td> <select name="Metodo.Pago">
+    <option selected value="Metodo">Elija Metodo de Pago</option>
+    <option value="Efectivo">Efectivo</option>
+    <option value="Tarjeta">Tarjeta</option>
+    <option value="PayPal">PayPal</option>
+    <optgroup label="El pago se realiza al momento de la entrega"></optgroup>
+  </select></td>
+  </tr>
 	<td>Producto</td>
 		<td> 
   <select name="CupCake">
@@ -103,6 +113,7 @@
 		<td align="center"><input type="Submit" name="Enviar" style="width: 50%; border: 30%"></td>
 		
 	</tr>
+	<tr><td colspan="4" align="center"><font size="5">Costo de Envio: $2.500</font></td></tr>
 	<tr><td colspan="4"><h1 align="center"><button class="button button2" onclick="document.location='index.html'">Volver Al Menu</button></td></tr>
 
 </form></table>
